@@ -1,38 +1,58 @@
-# API Data Console App (Initial Version)
+# API Data Console App (Refactored Version)
 
 ## 📌 Overview
-This is a simple C# console application that consumes a public API, processes the returned data, and displays selected information in the console.
+This is a refactored version of a C# console application that consumes a public API and displays processed data in the console.
 
-This version represents the **initial implementation**, focusing on functionality rather than structure or optimization.
+The focus of this version is **clean code, maintainability, and proper structure**.
+
 ---
 
 ## 🚀 Features
-- Calls a public API and retrieves data
-- Parses JSON response into C# objects
-- Uses:
-  - `record struct`
-  - `Func<>` delegates
-  - LINQ queries
-- Outputs formatted data to the console
+- Clean and modular architecture
+- Improved API handling and separation of concerns
+- Structured data processing using LINQ
+- Reusable methods and improved naming conventions
+- Enhanced readability and maintainability
+
 ---
 
-## 🧠 What I Practiced
-- Working with external APIs in C#
+## 🧠 Improvements Made
+- Refactored large methods into smaller, reusable components
+- Improved variable and method naming
+- Separated API logic from business logic
+- Added better error handling
+- Reduced redundancy
+- Applied clean code principles
+
+---
+
+## 🛠️ Technologies & Concepts
+- C#
+- .NET Console Application
+- LINQ
+- `record struct`
+- `Func<>` delegates
+- API consumption (HTTP Client)
 - JSON deserialization
-- Using LINQ for data manipulation
-- Applying modern C# features like `record struct`
-- Writing functional-style logic using `Func<>`
+
 ---
 
-## ⚠️ Notes
-- Code is **not yet refactored**
-- Limited separation of concerns
-- Minimal error handling
-- Designed as a learning step before optimization
+## 📈 Learning Outcome
+This version reflects my ability to:
+- Refactor working code into clean, production-quality code
+- Apply best practices in C# development
+- Write more maintainable and scalable programs
+
 ---
 
-## 🔄 Next Step
-A refactored version of this project will be uploaded to improve:
-- Code readability
-- Maintainability
-- Structure and best practices
+## 🔍 Comparison
+If you're interested, check the initial version to see the progression:
+➡️ From working code  
+➡️ To clean, structured, and maintainable code
+
+---
+
+## 📌 Future Improvements
+- Add logging
+- Implement dependency injection
+- Add unit tests
